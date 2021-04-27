@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">test_task</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Сергей Беляков</string>
+    <string name="nav_header_subtitle">belyakovsergeyrus@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_reports">Отчеты</string>
+    <string name="menu_history">История</string>
+    <string name="menu_support">Поддержка</string>
+    <string name="menu_goods">Товары</string>
+    <string name="menu_settings">Настройки</string>
+
+    <string name="tab_all">Все</string>
+    <string name="tab_russia">Россия</string>
+    <string name="tab_by">Беларусь</string>
+</resources>

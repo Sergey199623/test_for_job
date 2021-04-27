@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_goods">
+
+    <fragment
+        android:id="@+id/nav_goods"
+        android:name="com.sv.test_task.feature.GoodsFragment"
+        android:label="@string/menu_goods"
+        tools:layout="@layout/fragment_goods" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.sv.test_task.ui.history.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.sv.test_task.ui.reports.ReportsFragment"
+        android:label="@string/menu_reports"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.sv.test_task.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings"
+        android:label="@string/menu_settings" />
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.sv.test_task.ui.support.SupportFragment"
+        tools:layout="@layout/fragment_support"
+        android:label="@string/menu_support" />
+
+</navigation>
